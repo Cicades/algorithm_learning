@@ -16,6 +16,12 @@ class SingleCircleLinkList(object):
 			head.next = head
 			self.__head = head
 
+	@property
+	def head(self):
+		"""返回头节点"""
+		return self.__head
+		
+
 	def is_empty(self):
 		"""判断链表是否为空"""
 		return self.__head is None
