@@ -10,7 +10,7 @@
 """
 import sys
 
-sys.path.append('../../../demo/data_structure/')
+sys.path.append('../../../demo/others/')
 
 from sequence_stack import SequenceStack
 

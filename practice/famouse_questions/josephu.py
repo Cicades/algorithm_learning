@@ -3,7 +3,7 @@
 # 接下从出列的小孩下个位置开始继续报数,到m则出列，并继续重复上述过程
 # 问：小孩出列顺序
 import sys
-sys.path.append('../../demo/data_structure/')
+sys.path.append('../../demo/others/')
 from single_circle_link_list import SingleCircleLinkList
 
 def get_josephu_list(cll, k, m):

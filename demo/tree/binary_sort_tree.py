@@ -7,7 +7,7 @@
 
 class Node(object):
     """节点类"""
-    def __init__(self, data):
+    def __init__(self, data=None):
         self.data = data
         self.lchild = None
         self.rchild = None
