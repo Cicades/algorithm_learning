@@ -24,10 +24,10 @@ class Graph(object):
             for edges_li in self.edges:
                 edges_li.append(0)
 
-    def add_edge(self, v1, v2):
+    def add_edge(self, v1, v2, weight=1):
         """根据给定的两个顶点下标建立链接"""
-        self.edges[v1][v2] = 1
-        self.edges[v2][v1] = 1
+        self.edges[v1][v2] = weight
+        self.edges[v2][v1] = weight
 
     def show_edges(self):
         """打印边（邻接矩阵）"""
